@@ -1,0 +1,4 @@
+MVI A,05H
+CMA 
+INR A
+HLT

@@ -1,0 +1,8 @@
+MVI A,05H
+RRC 
+JZ EVEN
+;Number is odd
+HLT
+EVEN:
+;Number is even
+HLT

@@ -1,0 +1,8 @@
+MVI A,00H
+ORA A
+JZ ZERO
+;Number is not zero
+HLT
+ZERO:
+;Number is zero
+HLT

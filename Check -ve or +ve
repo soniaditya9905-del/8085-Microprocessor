@@ -1,0 +1,8 @@
+MVI A,06H
+RLC
+JC negative
+;positive number
+HLT
+negative:
+;negative number
+HLT
